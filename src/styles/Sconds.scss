@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&family=Big+Shoulders+Stencil+Text:wght@500;900&family=Orbitron:wght@500&family=Pacifico&display=swap');
+
+.boxnumber{
+    border: rgba(55, 60, 61, 0.63) solid 3px;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-left: 10px;
+    width: 9rem;
+    height: 10rem;
+    text-align: center;
+    background-color: rgba(55, 60, 61, 0.63);
+    box-shadow: 2px 2px 5px #999;;
+}
+
+.digit{
+    //color: #00BFFF;
+    color: hsl(233, 16%, 89%);
+    font-size: 90px;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 1px 2px #999;
+}
