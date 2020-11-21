@@ -3,20 +3,19 @@
 
 .boxnumber{
     border: rgba(55, 60, 61, 0.63) solid 3px;
-    border-radius: 1rem;
-    padding: 10px;
+    border-radius: 0.2rem;
     margin-left: 10px;
-    width: 9rem;
-    height: 10rem;
+    width: 5%;
+    height: 4%;
     text-align: center;
-    background-color: rgba(55, 60, 61, 0.63);
+    background-color: rgb(8, 8, 8);
     box-shadow: 2px 2px 5px #999;;
 }
 
 .digit{
-    //color: #00BFFF;
     color: hsl(233, 16%, 89%);
-    font-size: 90px;
+    font-size: 20px;
     font-family: 'Teko', sans-serif;
-    text-shadow: 1px 2px #999;
+    text-align: center;
+    margin: auto;
 }
