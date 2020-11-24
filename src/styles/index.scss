@@ -7,17 +7,22 @@
 body{
     font-family: 'Orbitron', sans-serif;
     font-size: 50%;
-    background-color: white;
+    background-color: rgb(231, 225, 225);
 }
 h1{
+    margin-top: 5%;
+  
     text-align: center;
     color: black;
 }
 .time{
     margin: auto;
     padding: 25px;
-    border: black solid 3px;
-    background-color: black;  
+    border: black solid 1px;
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(241, 233, 233),rgb(43, 42, 42));
+    box-shadow: 4px 4px 7px rgb(241, 240, 240);
+    width: 30% ;
+    border-radius: 3px;
 }
 .icono{
     font-size: 20px;
