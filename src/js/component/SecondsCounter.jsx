@@ -23,7 +23,6 @@ function SecondsCounter(props) {
 		</div>
 	);
 }
-
 // uses propTypes
 SecondsCounter.propTypes = {
 	n: PropTypes.number
