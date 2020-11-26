@@ -8,7 +8,7 @@ function SecondsCounter(props) {
 	//    variable que se modifica , quien la modifica = valor inicial
 	const [seconds, setSeconds] = useState(0);
 	useEffect(() => {
-		const time = setInterval(() => {
+		setInterval(() => {
 			setSeconds(c => c + 1);
 		}, props.n);
 	}, []);
