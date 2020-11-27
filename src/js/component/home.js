@@ -7,12 +7,15 @@ import "../../styles/index.scss";
 export function Home() {
 	return (
 		<div className="First-container row">
+			<header className="header">
+				<h1>
+					<i className="fab fa-react react" /> React
+				</h1>
+			</header>
+
 			<div className="col-sm-12">
 				<div className="container-fluid card">
-					<h1>
-						<i className="fab fa-react react" />
-						Counter with React
-					</h1>
+					<h1 className="title">Seconds Counter</h1>
 
 					<div className="row justify-content-center time container-md">
 						<i className="far fa-clock icono boxnumber" />
