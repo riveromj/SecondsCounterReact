@@ -14,10 +14,7 @@ h1, .react{
     margin-top: 2%;
     text-align: left;
     color: rgb(14, 189, 212);
-    
     margin-left: 2%;
-   // text-shadow: 1px 1px 2px rgb(241, 240, 240);
-   
 }
 .header{
     width: 100%;
@@ -53,4 +50,7 @@ margin: auto;
 padding: 2%;
 background-color: black;
 border-radius: 1%;
+}
+.row{
+    flex-wrap:nowrap;
 }

@@ -6,7 +6,7 @@ import "../../styles/index.scss";
 
 export function Home() {
 	return (
-		<div className="First-container row">
+		<div className="container-fluid">
 			<header className="header">
 				<h1>
 					<i className="fab fa-react react" /> React
